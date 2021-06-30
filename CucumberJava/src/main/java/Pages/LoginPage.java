@@ -12,13 +12,9 @@ public class LoginPage {
 	WebDriver driver;
 	
 	@FindBy(xpath="//a[@data-purpose='header-login']") private WebElement loginButton;
-	
     @FindBy(css="input[type='email']") private WebElement userName;
-
 	@FindBy(css="input[type='password']") private WebElement password;
-	
 	@FindBy(css="input[type='submit']") private WebElement login;
-	
 	@FindBy(css="input[type='text']") private WebElement search;
 	
 	
