@@ -5,15 +5,12 @@ import cucumber.api.junit.Cucumber;
 import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
-		features = "C:/Users/omkara//eclipse-workspace/CucumberJava/src/main/java/Feature", //the path of the feature files
-		glue={"stepDefinations"}, //the path of the step definition files
-		tags= {"@us0001"}
-		//format= {"pretty","html:test-outout"}
-		)
+@CucumberOptions(features = "C:/Users/omkara/git/Assignment/CucumberJava/src/main/java/Feature", // the path of the
+																									// feature files
+		glue = { "stepDefinations" }, // the path of the step definition files
+		tags = { "@MyAssignments" }
+)
 
 public class TestRunner {
-	
-	 
 
 }
